@@ -37,6 +37,8 @@ git remote add origin git@github.com:user/repo.git  # 添加远程(SSH)
 git push -u origin main  # 首次推送
 git pull  # 拉取远程更新
 git fetch  # 获取远程变更不合并
+git remote set-url origin git@github.com:你的用户名/新仓库名.git #更换远程仓库
+git remote -v #验证是否修改成功
 ```
 ## 6.历史查看
 ```
