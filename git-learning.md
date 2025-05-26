@@ -34,6 +34,7 @@ git branch -d old-feature  # 删除分支
 ## 5.远程操作
 ```
 git remote add origin git@github.com:user/repo.git  # 添加远程(SSH)
+git branch -M main #重命名当前分支为 main
 git push -u origin main  # 首次推送
 git pull  # 拉取远程更新
 git fetch  # 获取远程变更不合并
